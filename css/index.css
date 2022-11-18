@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background: url("../bg-header-mobile.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 340px;
+  padding: 0 1rem;
+  text-align: center;
+}
+.container .header img {
+  padding: 2.5rem;
+  width: 190px;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+.container h1 {
+  color: hsl(210deg, 10%, 33%);
+  padding-bottom: 1.2rem;
+}
+.container .first-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.container .first-text p {
+  line-height: 1.7;
+  color: hsl(201deg, 11%, 66%);
+  margin-bottom: 2rem;
+}
+.container .button1 button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.container .button1 .buttonf button {
+  background-color: hsl(171deg, 66%, 44%);
+}
+.container .button1 .buttons button {
+  background-color: hsl(233deg, 100%, 69%);
+}
+.container .second-text {
+  margin-top: 5rem;
+}
+.container .second-text h2 {
+  color: hsl(210deg, 10%, 33%);
+}
+.container .second-text p {
+  color: hsl(201deg, 11%, 66%);
+  padding: 1.5rem 0 3rem 0;
+}
+.container .second-img img {
+  width: 300px;
+}
+.container .second-img-text .second1 {
+  padding: 1rem 0;
+  margin: 2.5rem 0;
+}
+.container .second-img-text .second3 {
+  padding: 1rem 0;
+  margin: 2.5rem 0;
+}
+.container .second-img-text h3 {
+  color: hsl(210deg, 10%, 33%);
+  margin-bottom: 12px;
+}
+.container .second-img-text p {
+  color: hsl(201deg, 11%, 66%);
+  line-height: 1.6;
+}
+.container .third-div {
+  margin-top: 5rem;
+}
+.container .third-div .third-text h2 {
+  color: hsl(210deg, 10%, 33%);
+}
+.container .third-div .third-text p {
+  color: hsl(201deg, 11%, 66%);
+  padding: 1rem 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.container .third-img img {
+  width: 300px;
+  margin-top: 3rem;
+}
+.container .icon-text {
+  margin-top: 6rem;
+}
+.container .icon-text h2 {
+  margin: 1rem 0;
+  color: hsl(210deg, 10%, 33%);
+}
+.container .icon-text p {
+  line-height: 1.5;
+  color: hsl(201deg, 11%, 66%);
+}
+.container .icons {
+  margin-top: 5rem;
+}
+.container .black img, .container .snippets img, .container .sneak img {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+.container .black h4, .container .snippets h4, .container .sneak h4 {
+  margin: 12px;
+  color: hsl(210deg, 10%, 33%);
+}
+.container .black p, .container .snippets p, .container .sneak p {
+  color: hsl(201deg, 11%, 66%);
+  margin-bottom: 3rem;
+}
+.container .logo {
+  margin-top: 7rem;
+}
+.container .logo1 img, .container .logo2 img, .container .logo3 img, .container .logo4 img, .container .logo5 img {
+  width: 130px;
+  margin-bottom: 3rem;
+}
+.container .last-text {
+  margin-top: 7rem;
+}
+.container .last-text h2 {
+  color: hsl(210deg, 10%, 33%);
+  margin: 1rem 0;
+}
+.container .last-text p {
+  color: hsl(201deg, 11%, 66%);
+  line-height: 1.5;
+  font-size: 15px;
+}
+.container .button2 {
+  margin-top: 2rem;
+}
+.container .button2 button {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  margin: 12px;
+  cursor: pointer;
+  margin-left: 0;
+}
+.container .button2 .buttont button {
+  background-color: hsl(171deg, 66%, 44%);
+  color: white;
+}
+.container .button2 .buttonf button {
+  background-color: hsl(233deg, 100%, 69%);
+  color: white;
+}
+.container .footer {
+  background-color: hsl(0deg, 4%, 95%);
+  margin-top: 5rem;
+}
+.container .footer img {
+  width: 50px;
+  margin: 2.5rem 0;
+}
+.container .details p {
+  color: hsl(210deg, 10%, 33%);
+  padding-bottom: 1.5rem;
+}
+.container .font-icon {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.container .font-icon img {
+  width: 25px;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1020px) {
+  body {
+    background-image: url("../bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 1020px;
+    text-align: center;
+  }
+  .container .first {
+    width: 680px;
+    margin: auto;
+  }
+  .container .header img {
+    margin-top: 3rem;
+  }
+  .container .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .container .button1 button {
+    width: 180px;
+  }
+  .container .second-text {
+    width: 680px;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .container .second-img {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .container .second-img img {
+    width: 100%;
+    margin-left: -1rem;
+  }
+  .container .second-img-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: start;
+  }
+  .container .second-img-text .second1 {
+    margin: 1.5rem 0;
+  }
+  .container .second-img-text .second3 {
+    margin-top: 1.5rem;
+  }
+  .container .third-div .third-text {
+    width: 680px;
+    margin: auto;
+  }
+  .container .third-div .third-text p {
+    padding: 12px 1rem;
+  }
+  .container .third-img img {
+    width: 720px;
+  }
+  .container .icon-text {
+    margin-top: 2.5rem;
+  }
+  .container .icons {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .container .icons img {
+    margin: 0;
+    width: 50px;
+    height: 60px;
+    padding-bottom: 1rem;
+  }
+  .container .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+  }
+  .container .last-text {
+    width: 680px;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 3.5rem;
+  }
+  .container .button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .button2 button {
+    width: 180px;
+  }
+  .container .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0 1rem;
+    color: rgb(242, 241, 241);
+  }
+  .container .last-img {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+  }
+  .container .details {
+    display: flex;
+    margin-top: 2rem;
+    text-align: start;
+    gap: 2.5rem;
+  }
+  .container .font-icon img {
+    width: 20px;
+  }
+  .container .footer .font-icon {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .container .details p:hover {
+    color: hsl(171deg, 66%, 44%);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=index.css.map */
